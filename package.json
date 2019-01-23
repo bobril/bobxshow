@@ -1,0 +1,28 @@
+{
+    "name": "bobxshow",
+    "version": "1.0.0",
+    "description": "",
+    "typescript": {
+        "main": "index.ts"
+    },
+    "bobril": {
+        "title": "Bobx show",
+        "compilerOptions": {
+            "strict": true
+        }
+    },
+    "author": "Bobris",
+    "license": "MIT",
+    "prettier": {
+        "tabWidth": 4,
+        "printWidth": 120
+    },
+    "dependencies": {
+        "bobril": "*",
+        "bobril-m": "*",
+        "bobx": "*"
+    },
+    "devDependencies": {
+        "typescript": "*"
+    }
+}
