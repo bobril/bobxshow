@@ -14,6 +14,8 @@ class Demo {
     @observable
     hueMove = 0;
 
+    debouncedText = b.debounceProp(observableProp(this, "text"));
+
     @computed
     fancyChar(idx: number): b.IBobrilNode | undefined {
         const text = this.text;
@@ -49,6 +51,7 @@ const demo = new Demo();
 export function run() {
     return m.Paper({ zDepth: 1, style: { padding: 8 } }, [
         m.TextField({ labelText: "Enter some text", value: observableProp(demo, "text") }),
+        m.TextField({ labelText: "Debounced change", value: demo.debouncedText }),
         m.Slider({ min: 0, max: 360, value: observableProp(demo, "hueMove") }),
         b.styledDiv(demo.fancyText(), { padding: 8, minHeight: 30 })
     ]);

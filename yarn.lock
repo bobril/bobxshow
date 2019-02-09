@@ -10,30 +10,30 @@ bobril-m-icons@*:
     bobril "*"
 
 bobril-m@*:
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/bobril-m/-/bobril-m-0.13.0.tgz#14626b17dc5a1fc9e27e019bf0f4b72da2285757"
-  integrity sha512-4ChWlk5JGZMXiNNEtWc7wMPSBfz5fXTQkKHYEVpmBBiOfA4/l6jKHqZ3ZH1cqcS9yLHTPC/wIFyc2HmWgvLJrw==
+  version "0.13.1"
+  resolved "https://registry.yarnpkg.com/bobril-m/-/bobril-m-0.13.1.tgz#34f32c453251fc14ac3e19d5c75235f376893230"
+  integrity sha512-6zBwFMYwphWa5xCFrt0kIeeMSp9e6qaS7Nrm0DBzjuVK+l1yC9lP/ovX7WGlElIbdUHLfUKtiAeqWF5q8OPajw==
   dependencies:
     bobril "*"
     bobril-m-icons "*"
     webfontloader "^1.6.21"
 
 bobril@*:
-  version "8.18.0"
-  resolved "https://registry.yarnpkg.com/bobril/-/bobril-8.18.0.tgz#334d792b4e38ef7964a1a8b8ebf15c7c7853f635"
-  integrity sha512-ZSxj680giunwvQbc7mBnSU/n7DBLeTiPj9/tRilOrrKSFihe5sAChL2zPhB+smmcJ2TYThlMF+fSwh7y/pDHvA==
+  version "8.21.0"
+  resolved "https://registry.yarnpkg.com/bobril/-/bobril-8.21.0.tgz#8feb9a19af5f94a872147a0ddfa154c2a453ca81"
+  integrity sha512-mli2FZCd8PkA0F+v8kruuvof9t7VIYLiIO5XJNdKAyGO5gMw3tAjhKzYj71CN8YPhMySWh4TOObBXin0npChmQ==
 
 bobx@*:
-  version "0.24.1"
-  resolved "https://registry.yarnpkg.com/bobx/-/bobx-0.24.1.tgz#71eda7ba47203d2477c92efddbb8511b53cfc794"
-  integrity sha512-IMzzmCla/OvTSi7DuD/1ZjWCvTO797COnQZpJvCZT0ppX05tYsc+RF1I5ya0j5SADPF1tf1ohNxWwsqKylHXPg==
+  version "0.24.5"
+  resolved "https://registry.yarnpkg.com/bobx/-/bobx-0.24.5.tgz#f262e5b16a60d0ac47ebf0b20a149f0e7926671b"
+  integrity sha512-l40SMYf4mXdwHvuCFld9g7SqvELWQ/rXkkdt8afuVULrzYgGIDwRVq/4MSgytt0tJ10662IngQuf02QGdmN7og==
   dependencies:
     bobril "*"
 
 typescript@*:
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.2.4.tgz#c585cb952912263d915b462726ce244ba510ef3d"
-  integrity sha512-0RNDbSdEokBeEAkgNbxJ+BLwSManFy9TeXz8uW+48j/xhEXv1ePME60olyzw2XzUqUBNAYFeJadIqAgNqIACwg==
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.3.3.tgz#f1657fc7daa27e1a8930758ace9ae8da31403221"
+  integrity sha512-Y21Xqe54TBVp+VDSNbuDYdGw0BpoR/Q6wo/+35M8PAU0vipahnyduJWirxxdxjsAkS7hue53x2zp8gz7F05u0A==
 
 webfontloader@^1.6.21:
   version "1.6.28"
