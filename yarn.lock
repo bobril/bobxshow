@@ -10,18 +10,18 @@ bobril-m-icons@*:
     bobril "*"
 
 bobril-m@*:
-  version "0.13.1"
-  resolved "https://registry.yarnpkg.com/bobril-m/-/bobril-m-0.13.1.tgz#34f32c453251fc14ac3e19d5c75235f376893230"
-  integrity sha512-6zBwFMYwphWa5xCFrt0kIeeMSp9e6qaS7Nrm0DBzjuVK+l1yC9lP/ovX7WGlElIbdUHLfUKtiAeqWF5q8OPajw==
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/bobril-m/-/bobril-m-0.14.0.tgz#92f5294bb8679c6bd812ce887eaf4a3f08ff40fc"
+  integrity sha512-4lrADjE0NeEa9trm0fwQMPuoq6VGbhd/IazOqUNGrKm5No8xP/LBRGJGrT+bPCp2GkioTvc7tjdz/IUAZ2rPaw==
   dependencies:
     bobril "*"
     bobril-m-icons "*"
     webfontloader "^1.6.21"
 
 bobril@*:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/bobril/-/bobril-9.0.0.tgz#b9dfd52afc5f357df13387b7d33671bb229976bd"
-  integrity sha512-IZ6QDa6TL8k/dKU0RsetZZou0OozQLM3x/ak7w5BXfsu3j5HEfD7bSRLeZSJWYvslqKittNkbYuT9QkSpVDGdg==
+  version "9.3.0"
+  resolved "https://registry.yarnpkg.com/bobril/-/bobril-9.3.0.tgz#95c6042fc5737a3bdab70f86b10bf7f5baccad6e"
+  integrity sha512-oEgU2/asTd5doAWpVUzZ+pordmRqoBhD9ITcUTRmcaUKxbCBs9bVfqcdjqIboyygmQws6SqRgOOudBIjFjViGw==
 
 bobx@*:
   version "0.24.5"
