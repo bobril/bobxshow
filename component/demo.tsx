@@ -6,7 +6,7 @@ interface ICounterData {
     name: string;
 }
 
-class CounterCtx extends b.Component<ICounterData> {
+class BadgeCounter extends b.Component<ICounterData> {
     @observable
     counter: number = 0;
 
@@ -24,9 +24,6 @@ class CounterCtx extends b.Component<ICounterData> {
     }
 }
 
-const Counter = b.component(CounterCtx);
-
 export function run() {
-    return <Counter name="Bobril" />;
+    return <BadgeCounter name="Bobril" />;
 }
-

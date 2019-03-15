@@ -19,9 +19,9 @@ bobril-m@*:
     webfontloader "^1.6.21"
 
 bobril@*:
-  version "9.3.0"
-  resolved "https://registry.yarnpkg.com/bobril/-/bobril-9.3.0.tgz#95c6042fc5737a3bdab70f86b10bf7f5baccad6e"
-  integrity sha512-oEgU2/asTd5doAWpVUzZ+pordmRqoBhD9ITcUTRmcaUKxbCBs9bVfqcdjqIboyygmQws6SqRgOOudBIjFjViGw==
+  version "9.5.0"
+  resolved "https://registry.yarnpkg.com/bobril/-/bobril-9.5.0.tgz#cd58081e53579584f9b25c8fe2c00c6f2731a289"
+  integrity sha512-8+rAE05MAsXQo+XQPSpsFsaVNnxhdd5q2vGnwsVA10Alik//mAufahxK/Fz80A+iO+T/BPJIJWUILj7a+N82CQ==
 
 bobx@*:
   version "0.24.5"

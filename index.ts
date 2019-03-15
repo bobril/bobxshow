@@ -57,6 +57,6 @@ b.init(() => {
                 ])
             ])
         ),
-        b.styledDiv(screens[screenIndex()][1](), { padding: 8 })
+        b.styledDiv(b.withKey(screens[screenIndex()][1](), "" + screenIndex()), { padding: 8 })
     ]);
 });

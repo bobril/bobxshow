@@ -4,7 +4,7 @@ interface ICounterData {
     initialCount: number;
 }
 
-const Counter = b.component(function Counter({ initialCount }: ICounterData) {
+function Counter({ initialCount }: ICounterData) {
     const [count, setCount] = b.useState(initialCount);
     return (
         <>
@@ -13,7 +13,7 @@ const Counter = b.component(function Counter({ initialCount }: ICounterData) {
             <button onClick={() => setCount(prevCount => prevCount - 1)}>-</button>
         </>
     );
-});
+}
 
 export function run() {
     return <Counter initialCount={0} />;
