@@ -1,5 +1,7 @@
 import * as b from "bobril";
 import * as m from "bobril-m";
+
+import { run as UseEffect } from "./useEffect/demo";
 import { run as UseState } from "./useState/demo";
 import { run as Component } from "./component/demo";
 import { run as PropBasics } from "./propBasics/demo";
@@ -15,6 +17,7 @@ m.initRobotoFonts();
 let screenIndex = b.propi(0);
 
 let screens: [string, () => b.IBobrilChildren][] = [
+    ["UseEffect", UseEffect],
     ["UseState", UseState],
     ["Component", Component],
     ["Prop basics", PropBasics],
