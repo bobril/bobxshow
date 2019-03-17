@@ -16,7 +16,7 @@ function DemoUseEffect(_data: {}) {
         <m.Paper>
             <m.TextField labelText="Text" hintText="Enter some text here to be shown in browser title" value={text} />
             <div>Bobril frame number: {b.frame()}</div>
-            <div>UseEffect call count: {counter} </div>
+            <div>UseEffect call count: {counter}</div>
         </m.Paper>
     );
 }
