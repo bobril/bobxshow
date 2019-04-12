@@ -24,9 +24,9 @@ bobril@*:
   integrity sha512-Y2A3rj7Dxj318JqTurpEH+Oxxyw7JVujKW0sempf/RFKWwu9wYlZ88axVdl6/jOF0gE3AtRSUUsUZRWLGPG87Q==
 
 bobx@*:
-  version "0.26.0"
-  resolved "https://registry.yarnpkg.com/bobx/-/bobx-0.26.0.tgz#2c0c038343936f8cfad7d5d000e518c74e8ac493"
-  integrity sha512-KJQKsRtVhxFaakwv2s5duCAqQMcWxatF6uy9Pxpf9UcUlCx8ka5Ob8PES5PDSSQLiHua859KEUNPJkLj2eA86g==
+  version "0.27.1"
+  resolved "https://registry.yarnpkg.com/bobx/-/bobx-0.27.1.tgz#063226f35bb8f37bc7c1689c4d20c217700914f7"
+  integrity sha512-yN5NBdlQIXZmlCxIRZES26iaZBq0FjpK3HyuvypCgPjPw/BDB2hBKwrtxN8pTKPutUhpN5rRvh5I0CZi7kiABA==
   dependencies:
     bobril "*"
 
