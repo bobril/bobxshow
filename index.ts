@@ -11,6 +11,7 @@ import { run as PropClass } from "./propClass/demo";
 import { run as CompBasics } from "./compBasics/demo";
 import { run as CompStruct } from "./compStruct/demo";
 import { run as Interrupt } from "./interrupt/demo";
+import { run as UseEvents } from "./useEvents/demo";
 
 import { flex, vflex } from "./common";
 
@@ -19,6 +20,7 @@ m.initRobotoFonts();
 let screenIndex = b.propi(0);
 
 let screens: [string, () => b.IBobrilChildren][] = [
+    ["UseEvents", UseEvents],
     ["UseComputed", UseComputed],
     ["UseLayoutEffect", UseLayoutEffect],
     ["UseEffect", UseEffect],

@@ -19,9 +19,9 @@ bobril-m@*:
     webfontloader "^1.6.21"
 
 bobril@*:
-  version "9.9.0"
-  resolved "https://registry.yarnpkg.com/bobril/-/bobril-9.9.0.tgz#03683bff045376181feab92fd1d37b9001f0c069"
-  integrity sha512-Y2A3rj7Dxj318JqTurpEH+Oxxyw7JVujKW0sempf/RFKWwu9wYlZ88axVdl6/jOF0gE3AtRSUUsUZRWLGPG87Q==
+  version "12.0.0"
+  resolved "https://registry.yarnpkg.com/bobril/-/bobril-12.0.0.tgz#5d81b00b54c7d20ac3a5b45a124fc1ed5be5bb76"
+  integrity sha512-ONuQa6casgOxzcneH1bXQBemHt3i4wrM0EOIRkDEmMQULdu1IaC506Te+LxuidvYx3bmgdDquoDxZR0mIAudbw==
 
 bobx@*:
   version "0.27.1"
@@ -31,9 +31,9 @@ bobx@*:
     bobril "*"
 
 typescript@*:
-  version "3.4.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.4.3.tgz#0eb320e4ace9b10eadf5bc6103286b0f8b7c224f"
-  integrity sha512-FFgHdPt4T/duxx6Ndf7hwgMZZjZpB+U0nMNGVCYPq0rEzWKjEDobm4J6yb3CS7naZ0yURFqdw9Gwc7UOh/P9oQ==
+  version "3.6.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.6.4.tgz#b18752bb3792bc1a0281335f7f6ebf1bbfc5b91d"
+  integrity sha512-unoCll1+l+YK4i4F8f22TaNVPRHcD9PA3yCuZ8g5e0qGqlVlJ/8FSateOLLSagn+Yg5+ZwuPkL8LFUc0Jcvksg==
 
 webfontloader@^1.6.21:
   version "1.6.28"
