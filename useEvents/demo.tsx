@@ -65,6 +65,23 @@ function Dragable(this: b.IBobrilCtx, { sx, sy, name }: { sx: number; sy: number
     return <div style={[draggableStyle, { left: x(), top: y() }]}>{name}</div>;
 }
 
+function Cursor({ sx, sy, w, h }: { sx: number; sy: number; w: number; h: number }) {
+    return (
+        <div
+            onDragOver={() => b.EventResult.HandledButRunDefault}
+            style={{
+                position: "absolute",
+                width: w,
+                height: h,
+                left: sx,
+                top: sy,
+                cursor: "help",
+                backgroundColor: "rgba(128,128,128,0.2)"
+            }}
+        ></div>
+    );
+}
+
 function Canvas({ children }: { children?: b.IBobrilChildren }) {
     b.useEvents({
         onDragOver(dnd: b.IDndOverCtx) {
@@ -78,7 +95,15 @@ function Canvas({ children }: { children?: b.IBobrilChildren }) {
         }
     });
     return (
-        <div style={{ position: "relative", width: "100%", height: "300px", backgroundColor: "rgba(128,128,128,0.2)" }}>
+        <div
+            style={{
+                touchAction: "none",
+                position: "relative",
+                width: "100%",
+                height: "300px",
+                backgroundColor: "rgba(128,128,128,0.2)"
+            }}
+        >
             {children}
         </div>
     );
@@ -87,6 +112,7 @@ function Canvas({ children }: { children?: b.IBobrilChildren }) {
 export function run() {
     return (
         <Canvas>
+            <Cursor sx={200} sy={20} w={60} h={100}></Cursor>
             <Dragable sx={60} sy={40} name="A"></Dragable>
             <Dragable sx={120} sy={40} name="B"></Dragable>
             <Dragable sx={60} sy={100} name="C"></Dragable>
